@@ -1,21 +1,14 @@
-# --- Aplikasi web ---
 streamlit>=1.36
 plotly>=5.22
 pandas>=2.0
 numpy>=1.26
-
-# --- Database ---
 SQLAlchemy>=2.0
 python-dotenv>=1.0
-psycopg2-binary>=2.9    # hanya diperlukan jika memakai Postgres (DATABASE_URL)
-
-# --- Ingestion / scheduler ---
+psycopg2-binary>=2.9   
 requests>=2.31
 schedule>=1.2
-
-# --- Machine learning ---
 scikit-learn>=1.4
-statsmodels>=0.14        # untuk trendline OLS & dekomposisi musiman
-tensorflow>=2.16        # untuk model LSTM. Di Apple Silicon gunakan tensorflow-macos
-prophet>=1.1             # untuk model Prophet
+statsmodels>=0.14       
+tensorflow>=2.16        
+prophet>=1.1             
 joblib>=1.3
