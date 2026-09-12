@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+data/*.db
+models/*.h5
+models/*.pkl
+models/*.json
+!models/.gitkeep
+logs/
+.DS_Store
+.streamlit/secrets.toml
