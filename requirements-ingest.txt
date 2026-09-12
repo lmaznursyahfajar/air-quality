@@ -1,0 +1,8 @@
+# Dependency minimal untuk menjalankan scripts/ingest_once.py saja
+# (dipakai oleh .github/workflows/ingest.yml agar job tetap cepat -- tanpa
+# TensorFlow/Prophet yang berat dan tidak dibutuhkan hanya untuk ingest).
+requests>=2.31
+SQLAlchemy>=2.0
+python-dotenv>=1.0
+pandas>=2.0
+psycopg2-binary>=2.9   # driver Postgres, dipakai jika DATABASE_URL menunjuk ke Postgres
