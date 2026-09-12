@@ -1,0 +1,12 @@
+{
+  "LSTM": {
+    "mae": 2.504,
+    "rmse": 3.05,
+    "training_days": 76
+  },
+  "Prophet": {
+    "mae": 14.507,
+    "rmse": 20.814,
+    "training_days": 76
+  }
+}
